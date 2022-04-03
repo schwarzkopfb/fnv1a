@@ -2,16 +2,16 @@
   "name": "fnv1a",
   "version": "1.1.0",
   "description": "Simple 32 bit FNV-1a hash algorithm implementation.",
-  "main": "lib/fnv1a.js",
-  "types": "lib/fnv1a.d.ts",
+  "main": "index.js",
+  "types": "index.d.ts",
   "files": [
-    "lib"
+    "index.js",
+    "index.d.ts"
   ],
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "test": "node test/test.cjs && node test/test.mjs",
-    "clean": "rm -rf lib",
-    "prepublishOnly": "npm run clean && npm run build && npm run test"
+    "prepublishOnly": "npm run build && npm run test"
   },
   "keywords": [
     "hash",

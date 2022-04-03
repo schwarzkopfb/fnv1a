@@ -1,5 +1,5 @@
 import { equal } from 'assert'
-import hash from '../lib/fnv1a.js'
+import hash from '../index.js'
 
 equal(hash('node.js'), 3096844302, 'value should be hashed correctly')
 equal(hash('node.js', 0xcbf29ce484222325), 3836725205, 'should be able to override init value')

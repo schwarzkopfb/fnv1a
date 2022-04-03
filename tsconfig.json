@@ -4,10 +4,10 @@
       "module": "commonjs",
       "target": "es2015",
       "declaration": true,
-      "declarationMap": true,
+      "declarationMap": false,
       "checkJs": true,
       "skipLibCheck": true,
-      "sourceMap": true,
+      "sourceMap": false,
       "moduleResolution": "node",
       "removeComments": false,
       "noImplicitAny": true,
@@ -23,10 +23,9 @@
       "emitDecoratorMetadata": true,
       "experimentalDecorators": true,
       "resolveJsonModule": true,
-      "outDir": "./lib",
-      "baseUrl": "./",
-      "rootDir": "./src"
+      "outDir": "./",
+      "rootDir": "./"
     },
     "exclude": ["node_modules"],
-    "include": ["./src/**/*.ts"]
+    "include": ["./index.ts"]
   }
