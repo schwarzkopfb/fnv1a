@@ -1,5 +1,7 @@
 [![view on npm](http://img.shields.io/npm/v/fnv1a.svg?style=flat-square)](https://www.npmjs.com/package/fnv1a)
 [![npm module downloads per month](http://img.shields.io/npm/dm/fnv1a.svg?style=flat-square)](https://www.npmjs.com/package/fnv1a)
+[![node version](https://img.shields.io/badge/node->=8-brightgreen.svg?style=flat-square)](https://nodejs.org/download)
+[![license](https://img.shields.io/npm/l/tesseractocr.svg?style=flat-square)](https://github.com/schwarzkopfb/fnv1a/blob/master/LICENSE)
 
 # fnv1a
 

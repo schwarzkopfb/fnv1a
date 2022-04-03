@@ -1,6 +1,6 @@
 {
   "name": "fnv1a",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Simple 32 bit FNV-1a hash algorithm implementation.",
   "main": "index.js",
   "types": "index.d.ts",
