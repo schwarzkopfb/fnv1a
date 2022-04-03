@@ -1,6 +1,5 @@
 [![view on npm](http://img.shields.io/npm/v/fnv1a.svg?style=flat-square)](https://www.npmjs.com/package/fnv1a)
 [![npm module downloads per month](http://img.shields.io/npm/dm/fnv1a.svg?style=flat-square)](https://www.npmjs.com/package/fnv1a)
-![Analytics](https://ga-beacon.appspot.com/UA-66872036-1/fnv1a/Readme.md?pixel)
 
 # fnv1a
 
