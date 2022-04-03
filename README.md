@@ -27,8 +27,6 @@ _Note:_ importing via `require()` is also supported.
 
 ## Installation
 
-With npm:
-
     npm install fnv1a
 
 ## License
