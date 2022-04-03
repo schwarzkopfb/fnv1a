@@ -9,7 +9,7 @@ Simple and fast 32 bit FNV-1a hash for [node.js](http://nodejs.org) based on [th
 
 ```js
 import { equal } from 'assert'
-import hash from '../lib/fnv1a.js'
+import hash from 'fnv1a'
 
 const value = hash('node.js')
 
