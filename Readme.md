@@ -8,34 +8,28 @@ Simple and fast 32 bit FNV-1a hash for [node.js](http://nodejs.org) based on [th
 ## Usage
 
 ```js
+import { equal } from 'assert'
+import hash from '../lib/fnv1a.js'
 
-var assert = require('assert'), 
-    hash   = require('fnv1a'),
-    value  = hash('node.js')
+const value = hash('node.js')
 
 // decimal
-
-assert.equal(value, 3096844302)
+equal(value, 3096844302)
 
 // hexadecimal
-
-assert.equal(value.toString(16), 'b896180e')
+equal(value.toString(16), 'b896180e')
 
 // string
-
-assert.equal(value.toString(36), '1f7s4cu')
-
+equal(value.toString(36), '1f7s4cu')
 ```
+
+_Note:_ importing via `require()` is also supported.
 
 ## Installation
 
 With npm:
 
-    npm install --save fnv1a
-    
-With git:
-    
-    git clone git://github.com/schwarzkopfb/fnv1a.git
+    npm install fnv1a
 
 ## License
 
