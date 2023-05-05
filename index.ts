@@ -15,7 +15,7 @@ hash.BASE = 0x811c9dc5
  * @param [h] {number} FNV-1a hash generation init value.
  * @returns {number} The result integer hash.
  */
-export default function hash(s: string, h = hash.BASE): number {
+function hash(s: string, h = hash.BASE): number {
   const l = s.length;
 
   for (let i = 0; i < l; i++) {
@@ -26,4 +26,4 @@ export default function hash(s: string, h = hash.BASE): number {
   return h >>> 0;
 }
 
-module.exports = hash;
+export = hash;
