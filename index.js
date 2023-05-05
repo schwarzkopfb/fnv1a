@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 /**
  * FNV-1a hash generation init value.
  * It's exposed, because this allows user to override it.
@@ -24,5 +23,4 @@ function hash(s, h = hash.BASE) {
     }
     return h >>> 0;
 }
-exports.default = hash;
 module.exports = hash;

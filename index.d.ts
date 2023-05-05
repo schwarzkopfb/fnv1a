@@ -10,4 +10,4 @@ declare function hash(s: string, h?: number): number;
 declare namespace hash {
     var BASE: number;
 }
-export default hash;
+export = hash;
